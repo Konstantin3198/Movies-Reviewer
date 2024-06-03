@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <meta name="application-name" content="Movies Reviewer"/>
+       <meta name="author" content="Konstantin G"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+       <header class="navMenu">
+            <div class="img_textCont">
+               <div class="logoContainer"><img id='logo' src="./iconsSource/Film_Slate-icon.webp" alt="logo image"/></div> 
+                <h1 id="appName">Movies Reviewer</h1>
+            </div>
+            <div class="material-symbols-outlined">
+               <img src="./iconsSource/menu-icon.png" alt="menu"/>
+            </div>
+            <ul class="menu">
+                <li ><a href='#' class="genres">Genres</a></li>
+                <li ><a href='#' class="movies">Movies</a></li>
+                <li ><a href='#' class="tvshows">TvShows</a></li>
+            </ul>
+            <form class="formSubmit">
+                <button type="submit" class="searchButton"><img src="./iconsSource/search-icon.png" alt="search"/></button>
+                <input type="text" id="search" placeholder="Insert keywords..."/>
+            </form>
+            <button class="login" type="submit">
+                <img src="./iconsSource/login-icon.png" alt="login"/>
+                <p>Login</p>
+            </button>
+        </header>
+       <main>
+         <div class="subheader">
+            <ul class="hiddenSecondaryMenu" id="secondMenu">
+                <li><a href='#' class='genres'>Genres</a></li>
+                <div class="optionsContainer2"></div>
+                <li><a href='#' class='movies'>Movies</a></li>
+                <li><a href='#' class='tvshows'>TvShows</a></li>
+            </ul>
+           <div class="optionsContainer"></div>
+           <h2 class="results">Most Popular</h2>
+           
+         </div>
+         <div class="moviesList"></div>
+         <nav aria-label="page navigation">
+            <ul class="pagination">  
+            </ul>
+         </nav>
+       </main>
+       <footer>
+        <div class="copyright">
+            <div class="logoContainer"><img id='logo' src="./iconsSource/Film_Slate-icon.webp" alt="logo image"/></div> 
+            <p>	&#169; 2024 Movies Reviewer. All Rights Reserved</p>
+        </div>
+        <div class="conclusion">
+            <p>The Movies Reviewer is a simple site, in which you can see general informations of 
+               categorized movies and tvshows.
+            </p>
+            <div class="utils">
+              <span>Technologies that i used:</span>
+              <ul class="technologies">
+                <li class="tech-icon"><img src='./iconsSource/html5-icon.png' alt='html icon'/></li>
+                <li class="tech-icon"><img src='./iconsSource/css-icon.png' alt='css icon'/></li>
+                <li class="tech-icon"><img src='./iconsSource/js-icon.png' alt='javascript icon'/></li>
+              </ul>
+            </div>
+        </div>
+       </footer>
+       <script src="./dist/main.js"></script>
+    </body>
+</html>

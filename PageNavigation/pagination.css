@@ -1,0 +1,21 @@
+nav[aria-label='page navigation']{
+    margin:20px auto;
+}
+
+.pagination{
+   display:flex;
+   width:300px;
+   column-gap:2px;
+}
+
+.page-item{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    background-color:black ;
+    font-size:18px;
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+
